@@ -2,6 +2,16 @@
 name = "dvdread-rs"
 version = "0.1.0"
 edition = "2021"
+license-file = "LICENSE"
+homepage = "https://github.com/theflanman/dvdread-rs"
+description = "Rust bindings for libdvdread."
+repository = "https://github.com/theflanman/dvdread-rs"
+readme = "README.md"
+exclude = [
+    ".idea/*",
+    ".github/*",
+    ".gitignore"
+]
 
 [dependencies]
 
