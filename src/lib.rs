@@ -2,6 +2,7 @@
 #![allow(non_camel_case_types)]
 #![allow(non_snake_case)]
 
-use std::env;
+pub mod dvd_reader;
+pub mod ifo_read;
 
 include!(concat!(env!("OUT_DIR"), "/bindings.rs"));
